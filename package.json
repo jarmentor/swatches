@@ -15,6 +15,6 @@
   "author": "Jonathan Armentor",
   "license": "MIT",
   "devDependencies": {
-    "serve": "^11.0.1"
+    "serve": "^11.3.2"
   }
 }
