@@ -9,12 +9,14 @@
   },
   "scripts": {
     "start": "serve",
+    "build": "NODE_ENV=production esbuild main.js --bundle --minify  --outfile=dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Jonathan Armentor",
   "license": "MIT",
   "devDependencies": {
+    "esbuild": "^0.7.9",
     "serve": "^11.3.2"
   }
 }
